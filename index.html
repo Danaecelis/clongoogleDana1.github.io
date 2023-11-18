@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Vincular a hoja de estilo CSS -->
+    <title>Clon de Google</title> <!-- Título de la página -->
+    <style>
+        body {
+            min-height: 100vh; /* Establece el alto mínimo del cuerpo al 100% de la altura de la ventana */
+            margin: 0;
+            font-family: Arial, sans-serif; /* Cambiar la fuente según sea necesario */
+        }
+
+        header {
+            background-color: #f2f2f2; /* Color de fondo del encabezado */
+            padding: 10px; /* Espaciado interno del encabezado */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between; /* Distribuir los elementos de manera uniforme */
+            align-items: center; /* Centrar verticalmente los elementos */
+        }
+
+        .nav-derecho-seccion {
+            list-style: none; /* Quitar los estilos de la lista */
+            display: flex;
+            gap: 15px; /* Espaciado entre elementos */
+        }
+
+        .nav-derecho-seccion li a {
+            text-decoration: none; /* Quitar subrayado del enlace */
+            color: #1a0dab; /* Color del texto del enlace */
+        }
+
+        main {
+            margin-top: 60px; /* Ajusta el espacio desde la parte superior, teniendo en cuenta el encabezado */
+        }
+
+        footer {
+            background-color: #f2f2f2; /* Color de fondo del pie de página */
+            padding: 10px; /* Espaciado interno del pie de página */
+        }
+
+        .footer-izquierda, .footer-derecha {
+            list-style: none; /* Quitar los estilos de la lista */
+            display: flex;
+            gap: 15px; /* Espaciado entre elementos */
+        }
+
+        .footer-izquierda li a, .footer-derecha li a {
+            text-decoration: none; /* Quitar subrayado del enlace */
+            color: #1a0dab; /* Color del texto del enlace */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-derecho-seccion">
+                <li><a href="">Correo</a></li>
+                <li><a href="">Imágenes</a></li>
+                <li><a href=""><img src="https://static.thenounproject.com/png/145292-200.png" alt="Icono Google Apps" width="17"></a></li>
+                <li><a href=""><img src="https://bit.ly/47kanVN" alt="Perfil" id="perfil" width="25" style="border-radius: 50%;"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <section class="main-logodegoogle">
+            <img src="https://i.gifer.com/IlEO.gif" alt="Logo de Google">
+        </section>
+
+        <section class="main-barradenavegacion">
+            <div class="main-contenedor-barra">
+                <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSabVX1L3QdoMUyTj_T750UXCLZ14W8gQFzLOjJlMM8Rw&s" alt="Icono de búsqueda" width="18"></span>
+                <input type="text">
+                <a href=""><img src="https://bit.ly/47lhHR0" alt="Icono de micrófono" width="12"></a>
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/1024px-Google_Lens_Icon.svg.png" alt="Icono de cámara" width="20"></a>
+            </div>
+        </section>
+
+        <section class="main-botones">
+            <div>
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Voy a tener suerte</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <ul class="footer-izquierda">
+            <li><a href="">Publicidad</a></li>
+            <li><a href="">Acerca de</a></li>
+            <li><a href="">Negocios</a></li>
+            <li><a href="">Sobre Google</a></li>
+        </ul>
+        <ul class="footer-derecha">
+            <li><a href="">Privacidad</a></li>
+            <li><a href="">Condiciones</a></li>
+            <li><a href="">Preferencias</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
